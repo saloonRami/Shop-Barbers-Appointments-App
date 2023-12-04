@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "A8C931F4-553F-40ED-AE38-EBDE5FC64DBA",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:BarberAppointmentsApp.xcodeproj",
+      "identifier" : "73ACEBBE2B15E712002F281A",
+      "name" : "BarberAppointmentsApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:BarberAppointmentsApp.xcodeproj",
+        "identifier" : "73ECF1672B1821D50031E0C3",
+        "name" : "BarberAppointmentsAppUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:BarberAppointmentsApp.xcodeproj",
+        "identifier" : "73ECF1762B1821E00031E0C3",
+        "name" : "BarberAppointmentsAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
