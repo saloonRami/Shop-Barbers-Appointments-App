@@ -1,22 +1,8 @@
 # This workflow will build a Swift project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
 
-name: Swift
-
-on:
-  push:
-    branches: [ "Secand" ]
-  pull_request:
-    branches: [ "Secand" ]
-
-jobs:
-  build:
-
-    runs-on: macos-latest
-    runs-on: self-hosted
-    steps:
-    - uses: actions/checkout@v3
-    - name: Build
-      run: swift build -v
-    - name: Run tests
-      run: swift test -v
+            - name: GitHub Action for Standalone ESLint
+  # You may pin to the exact commit or the version.
+  # uses: 123FLO321/action-eslint-standalone@fc33f1337a4ad6d3396cc20adccfc22375ad9336
+  uses: 123FLO321/action-eslint-standalone@1.0.0
+          
