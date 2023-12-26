@@ -1,0 +1,127 @@
+{
+
+"Shop_barber": [{
+
+    "Barber": {
+
+        "Order_num":5,
+        "Shop_name":"Mustafa saloon",
+        "email":"Rami_alaidy@yahoo.com",
+        "image_profile":"",
+        "isAVailable":true,
+        "isOwner":true,
+        "name":"Mustafa",
+        "fcm":""
+     },
+ "Shop_info":{
+    "name":"Mustafa Sallon",
+    "category": "Beauty salon",
+    "genderSalon":"male",
+    "city": "Amman",
+    "region": "Abdon",
+    "id": 1001,
+    "isFeatured": true,
+    "isFavorite": true,
+    "phone": "00962 6 592 2999",
+    "email":"info@toniandguyjordan.com",
+    "LocationString":"Hayat Abdoun Complex, Sa'ad Shamout Street, Amman, Jordan, 11196.",
+    "coordinates": {
+        "longitude": -116.166868,
+        "latitude": 34.011286
+    },
+    "description": "Pioneering, inspirational and passionate – For more than 50 years, TONI&GUY has been renowned as an innovator within the hair industry, having grown from a single unit in Clapham, London to a multi-national company.",
+    "image_name": "TonyAndGuyImage",
+    "services":["Choose a barber","bridal service"," skin care","Care products"],
+    "status":"true",
+    "isAvailable":"true",
+    "shop_name":"Mustafa saloon",
+    "fcm":""
+
+},
+ "products":{
+
+     "name":"Shampoo",
+     "price":100,
+     "quantity": 4,
+     "image_product": "",
+     "description":"",
+     "isAvailable":"",
+     "cat": "",
+     "id":"1"
+ },
+ "appointments": {
+
+     "name_customer" : "Rami Alaidy 1",
+     "Phone_customer": "0797743390",
+
+     "reservation_date":{
+         "day_reservation":"10/9/2023",
+         "time_reservation":"6:30 AM"
+     },
+     "condition_appintements":"Pinding",
+     "type_appintements":"Hair Cut"
+
+ }
+},
+   {
+       "Barber": {
+
+           "Order_num":5,
+           "Shop_name":"omer saloon",
+           "email":"Rami_alaidy@yahoo.com",
+           "image_profile":"",
+           "isAVailable":true,
+           "isOwner":true,
+           "name":"Omer",
+           "fcm":""
+        },
+    "Shop_info":{
+    "name":"Omer Sallon",
+    "category": "Beauty salon",
+    "genderSalon":"male",
+    "city": "Amman",
+    "region": "Abdon",
+    "id": 1001,
+    "isFeatured": true,
+    "isFavorite": true,
+    "phone": "00962 6 592 2999",
+    "email":"info@toniandguyjordan.com",
+    "LocationString":"Hayat Abdoun Complex, Sa'ad Shamout Street, Amman, Jordan, 11196.",
+    "coordinates": {
+        "longitude": -116.166868,
+        "latitude": 34.011286
+    },
+    "description": "Pioneering, inspirational and passionate – For more than 50 years, TONI&GUY has been renowned as an innovator within the hair industry, having grown from a single unit in Clapham, London to a multi-national company.",
+    "image_name": "TonyAndGuyImage",
+    "services":["Choose a barber","bridal service"," skin care","Care products"],
+    "status":"true",
+    "isAvailable":"true",
+    "shop_name":"omer saloon",
+    "fcm":""
+},
+    "products":{
+        "name":"Shampoo",
+        "price":100,
+        "quantity": 4,
+        "image_product": "",
+        "description":"",
+        "isAvailable":"",
+        "cat": "",
+        "id":"1"
+    },
+    "appointments": {
+
+        "name_customer" : "Rami Alaidy 2",
+        "Phone_customer": "0795838893",
+
+        "reservation_date":{
+            "day_reservation":"09/09/2023",
+            "time_reservation":"4:30 AM"
+        },
+        "condition_appintements":"Pinding",
+        "type_appintements":"Hair dryer"
+
+    }
+}
+]
+}

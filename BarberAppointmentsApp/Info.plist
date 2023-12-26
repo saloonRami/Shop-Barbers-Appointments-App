@@ -2,8 +2,62 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>app-1-271964176052-ios-1e798fdc4e13007956a1e1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.271964176052-01up2j43302d4pdg8gc2aia25jbl45rg</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>linkteambarber.page.link</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>linkteambarber</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>375729311644312</string>
+	<key>FacebookClientToken</key>
+	<string>b908120700cb03738658c86737c6d4fa</string>
+	<key>FacebookDisplayName</key>
+	<string>BarberAppointmentsApp</string>
+	<key>FirebaseDynamicLinksCustomDomains</key>
+	<array>
+		<string>https://linkteambarber.page.link/?link=https://linkteambarber.page.link/recipes&amp;apn=BarberShops.Appoiment.SaloonApps.android&amp;isi=0795838893&amp;ibi=Barber.Booking.appoiment.Shop.haircut.Rami&amp;efr=1</string>
+		<string>https://linkteambarber.page.link/recipes</string>
+		<string>https://linkteambarber.page.link/q9Ku</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+	</array>
+	<key>Privacy - Location usage description</key>
+	<string></string>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>audio</string>
+		<string>external-accessory</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>nearby-interaction</string>
+		<string>processing</string>
 		<string>remote-notification</string>
 	</array>
 </dict>

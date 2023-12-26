@@ -9,7 +9,8 @@ import SwiftUI
 import _AuthenticationServices_SwiftUI
 import GoogleSignInSwift
 import GoogleSignIn
-
+import FirebaseAuth
+import FacebookLogin
 struct EmailCheckAndFetchView: View {
 
     
@@ -40,9 +41,9 @@ struct EmailCheckAndFetchView: View {
                         .padding([.top,.bottom],50)
 
                     Button(action: {
-//                        self.Vm.ChechEmailExesit(Email: EmailValue)
+                        self.ChechEmailExesit(Email: EmailValue)
 //                        self.Vm.didTapSendSignInLink()
-                        self.Vm.Logout()
+//                        self.Vm.Logout()
                         self.isLoading = true
 
                     }, label: {
@@ -67,21 +68,59 @@ struct EmailCheckAndFetchView: View {
 
                     SignInWithAppleButton(
                         onRequest: { request in
-
+                           print(request)
+                            userAuthModel.startSignInWithAppleFlow()
                         },
                         onCompletion: { result in
-
+                            print(result)
                         })
                     .padding([.top,.bottom],24)
 
                     // Google Signin
                     GoogleSignInButton(action: handleSignInButton)
 
+                    Spacer()
+                    
+                    Button {
+                        userAuthModel.setupLoginButton()
+
+                    } label: {
+                        Text("Facebook")
+                    }
+
+
                 }.frame(width: 300,height: 36)
                     .padding(.top,44)
                 Spacer()
             }
             .padding(.all)
+        }
+    }
+    func loginButton(_ loginButton: FBLoginButton!, didCompleteWith result: LoginManagerLoginResult!, error: Error!) {
+      if let error = error {
+        print(error.localizedDescription)
+        return
+      }
+      // ...
+    }
+    func ChechEmailExesit(Email: String){
+
+//        Logout()
+        print( Auth.auth().currentUser?.providerData as Any)
+        Auth.auth().fetchSignInMethods(forEmail: Email ){ data,error in
+            print(Email as Any,data as Any,error?.localizedDescription as Any)
+
+            self.Vm.IsEmailExesit = true
+
+            guard data != nil else{
+                self.Vm.GetSwitch = SwitchCheckEmail(rawValue: data?.description ?? "nil") ?? .NotExist
+                self.Vm.ViewTap = ( self.Vm.GetSwitch?.GetSwitch(email: Email))
+                return
+            }
+
+            self.Vm.GetSwitch = SwitchCheckEmail(rawValue: data?.first?.description ?? "password") ?? .password
+            self.Vm.ViewTap =  ( self.Vm.GetSwitch?.GetSwitch(email: Email))
+
         }
     }
     func handleSignInButton() {
