@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Shop_barber" representedClassName="Shop_barber" syncable="YES">
+        <attribute name="business_name" optional="YES" attributeType="String"/>
+        <attribute name="chech_privecy" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="first_name" optional="YES" attributeType="String"/>
+        <attribute name="isOwner" optional="YES" attributeType="String"/>
+        <attribute name="last_name" optional="YES" attributeType="String"/>
+        <attribute name="location" attributeType="Binary" customClassName="NSObject"/>
+        <attribute name="phone_num" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="services" attributeType="Binary" customClassName="[String]"/>
+        <attribute name="software_used" optional="YES" attributeType="String"/>
+        <attribute name="team_size" optional="YES" attributeType="String"/>
+        <attribute name="website" optional="YES" attributeType="URI"/>
+        <attribute name="you_hear" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoreProducts" representedClassName="StoreProducts" syncable="YES" codeGenerationType="class">
+        <attribute name="brand" optional="YES" attributeType="String"/>
+        <attribute name="dateTemp" optional="YES" attributeType="Date" usesScalarValueType="YES"/>
+        <attribute name="descriptionPro" optional="YES" attributeType="String"/>
+        <attribute name="namePro" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="usesProducts" optional="YES" attributeType="String"/>
+    </entity>
+</model>

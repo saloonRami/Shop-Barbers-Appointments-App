@@ -10,23 +10,31 @@
 	</array>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>webcredentials:example.com</string>
+		<string>bookingsaloonsapps.firebaseapp.com</string>
+		<string>bookingsaloonsapps.web.app</string>
+		<string>localhost</string>
+		<string>bookingsaloonsapps--preview-name-3tzzo74v.web.app</string>
+		<string>applinks:linkteambarber.page.link</string>
+		<string>1:271964176052:ios:1e798fdc4e13007956a1e1.firebaseapp.com</string>
+		<string>linkteambarber.page.link</string>
 	</array>
 	<key>com.apple.developer.devicecheck.appattest-environment</key>
 	<string>development</string>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array/>
 	<key>com.apple.developer.icloud-services</key>
-	<array>
-		<string>CloudKit</string>
-	</array>
+	<array/>
 	<key>com.apple.developer.shared-with-you</key>
-	<true/>
-	<key>com.apple.developer.system-extension.install</key>
 	<true/>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
+	<key>com.apple.security.assets.movies.read-only</key>
+	<true/>
+	<key>com.apple.security.assets.music.read-only</key>
+	<true/>
 	<key>com.apple.security.assets.pictures.read-only</key>
+	<true/>
+	<key>com.apple.security.automation.apple-events</key>
 	<true/>
 	<key>com.apple.security.cs.allow-jit</key>
 	<true/>
@@ -48,5 +56,9 @@
 	<true/>
 	<key>com.apple.security.personal-information.photos-library</key>
 	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)Barber.Booking.appoiment.Shop.haircut.Rami</string>
+	</array>
 </dict>
 </plist>

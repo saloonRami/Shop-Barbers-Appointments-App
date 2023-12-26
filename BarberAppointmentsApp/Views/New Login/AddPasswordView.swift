@@ -17,7 +17,7 @@ struct AddPasswordView: View {
 
    @StateObject var  VM  = LoginEmailViewModel()
 
-   @AppStorage("IsLogin") var IsLogin: Bool  = false
+    @State private  var IsLogin: Bool  = false
 
     @State var IsEmptyData : Bool = false
 
@@ -44,7 +44,8 @@ struct AddPasswordView: View {
                 }.padding()
 
                 Button(action: {
-                    self.IsLogin =    self.VM.LoginWithPassword(email:email,Password: VM.password)
+                    self.IsLogin = false
+                    self.IsLogin = self.VM.LoginWithPassword(email:email,Password: VM.password)
                     self.isLoading = true
                 }, label: {
                     Text(self.isLoading ? "Loading......":"Next")
@@ -58,7 +59,7 @@ struct AddPasswordView: View {
 
                 }).padding([.top,.bottom],100)
                     .fullScreenCover(isPresented: self.$IsLogin){
-                        TabHomeView()
+                        HomeTabMainView()
                     }
                     .disabled(VM.password.isEmpty ? true:false)
                     .opacity(VM.password.isEmpty ? 0.6:1.0)

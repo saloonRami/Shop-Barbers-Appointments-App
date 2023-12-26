@@ -1,0 +1,104 @@
+[
+
+{
+    "name":"TONI&GUY",
+    "category": "Beauty salon",
+    "genderSalon":"Female",
+    "city": "Amman",
+    "state": "Abdon",
+    "id": 1001,
+    "isFeatured": true,
+    "isFavorite": true,
+    "phone": "00962 6 592 2999",
+    "email":"info@toniandguyjordan.com",
+    "LocationString":"Hayat Abdoun Complex, Sa'ad Shamout Street, Amman, Jordan, 11196.",
+    "coordinates": {
+        "longitude": -116.166868,
+        "latitude": 34.011286
+    },
+    "description": "Pioneering, inspirational and passionate – For more than 50 years, TONI&GUY has been renowned as an innovator within the hair industry, having grown from a single unit in Clapham, London to a multi-national company.",
+    "imageName": "TonyAndGuyImage",
+    "services":["Choose a barber","bridal service"," skin care","Care products"]
+},
+
+{
+    "name":"Tareq Salons ",
+    "category": "Beauty salon",
+    "genderSalon":"Female",
+    "city": "Amman",
+    "state": " Dabouq",
+    "id": 1002,
+    "isFeatured": true,
+    "isFavorite": true,
+    "phone": "+96262221333 ",
+    "email":"info@TareqSalon.com",
+    "LocationString":"Hayat Abdoun Complex, Sa'ad Shamout Street, Amman, Jordan, 11196.",
+    "coordinates": {
+        "longitude": -110.166868,
+        "latitude": 32.011286
+    },
+    "description": "Pioneering, inspirational and passionate – For more than 50 years, TONI&GUY has been renowned as an innovator within the hair industry, having grown from a single unit in Clapham, London to a multi-national company.",
+    "imageName": "TareqSalonImage",
+    "services":["Choose a barber","bridal service"," skin care","Care products"]
+},
+{
+    "name":"TONI&GUY",
+    "category": "Beauty salon",
+    "genderSalon":"Female",
+    "city": "Amman",
+    "state": "Abdon",
+    "id": 1003,
+    "isFeatured": true,
+    "isFavorite": true,
+    "phone": "00962 6 592 2999",
+    "email":"info@toniandguyjordan.com",
+    "LocationString":"Hayat Abdoun Complex, Sa'ad Shamout Street, Amman, Jordan, 11196.",
+    "coordinates": {
+        "longitude": -116.166868,
+        "latitude": 34.011286
+    },
+    "description": "Pioneering, inspirational and passionate – For more than 50 years, TONI&GUY has been renowned as an innovator within the hair industry, having grown from a single unit in Clapham, London to a multi-national company.",
+    "imageName": "TonyAndGuyImage",
+    "services":["Choose a barber","bridal service"," skin care","Care products"]
+},
+{
+    "name":"Tareq Salons ",
+    "category": "Beauty salon",
+    "genderSalon":"Female",
+    "city": "Amman",
+    "state": " Dabouq",
+    "id": 1004,
+    "isFeatured": true,
+    "isFavorite": true,
+    "phone": "+96262221333 ",
+    "email":"info@TareqSalon.com",
+    "LocationString":"Hayat Abdoun Complex, Sa'ad Shamout Street, Amman, Jordan, 11196.",
+    "coordinates": {
+        "longitude": -110.166868,
+        "latitude": 32.011286
+    },
+    "description": "Pioneering, inspirational and passionate – For more than 50 years, TONI&GUY has been renowned as an innovator within the hair industry, having grown from a single unit in Clapham, London to a multi-national company.",
+    "imageName": "TareqSalonImage",
+    "services":["Choose a barber","bridal service"," skin care","Care products"]
+},
+{
+    "name":"Rami Saloon",
+    "category": "Rivers",
+    "genderSalon":"Female",
+    "city": "Amman",
+    "state": " Dabouq",
+    "id": 1005,
+    "isFeatured": true,
+    "isFavorite": true,
+    "phone": "+96262221333 ",
+    "email":"infof@TareqSalon.com",
+    "LocationString":"Hayat Abdoun Complex, Sa'ad Shamout Street, Amman, Jordan, 11196.",
+    "coordinates": {
+        "longitude": -110.166868,
+        "latitude": 32.011286
+    },
+    "description": "Pioneering, inspirational and passionate – For more than 50 years, TONI&GUY has been renowned as an innovator within the hair industry, having grown from a single unit in Clapham, London to a multi-national company.",
+    "imageName": "TareqSalonImage",
+    "services":["Choose a barber","bridal service"," skin care","Care products"]
+}
+]
