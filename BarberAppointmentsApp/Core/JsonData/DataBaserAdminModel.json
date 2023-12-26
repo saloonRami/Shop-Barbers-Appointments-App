@@ -1,0 +1,799 @@
+//
+//  DataBaserAdminModel.json
+//  BarberShopsSaloonApp
+//
+//  Created by Rami Alaidy on 02/10/2023.
+//
+
+import Foundation
+{
+  "Customer": {
+    "users": {
+      "bbbbbb": {
+        "ShopName": "Omer Saloon",
+        "email": "bbbyy@yahoo.com",
+        "name": "Bbbbbb",
+        "password": "R315r199r",
+        "permission": "0",
+        "phone": "0795838893",
+        "status": "1"
+      },
+      "bbbyy@yahoo,com": {
+        "fcm": "cRmQs0OI20kyrRIWYbnMu1:APA91bF3FA8FKgtIl7sg08d-dsdMT-InblJym9ZLHobU_dNauzvclvT9rt1UbKzQJBGj89TCdEq-JxuG6WEQdd7EB16f-N4Hw36xTHf1fcrRKExjiOa56kJQTCxePQ2qt2ywzi4wA7TZ"
+      },
+      "ramialaidy,rr@gmail,com": {
+        "fcm": "e7AyHZgpAUEpu8ELXlJSfP:APA91bHKsG9SxyIVN3B1c_W-vWEebwo4Mp4VeJoGF6FAPXl09uxjuAW3RVt8JpS6uWBJmOR-is_3C9W-ZTszxXnTPymCnZDPUSVf0ueJ2mFO_7NYWogSBkXU_j91BKQ6JuMCdoAPRCMC"
+      },
+      "shanks": {
+        "ShopName": "",
+        "email": "ramialaidy.rr@gmail.com",
+        "fcm": "e7AyHZgpAUEpu8ELXlJSfP:APA91bHKsG9SxyIVN3B1c_W-vWEebwo4Mp4VeJoGF6FAPXl09uxjuAW3RVt8JpS6uWBJmOR-is_3C9W-ZTszxXnTPymCnZDPUSVf0ueJ2mFO_7NYWogSBkXU_j91BKQ6JuMCdoAPRCMC",
+        "name": "Shanks",
+        "password": "R315rqijj",
+        "permission": "0",
+        "phone": "0797743390",
+        "status": "1"
+      }
+    }
+  },
+  "Hairdresser": {
+    "shop_barber": {
+      "ramialaidy,ra@gmail,com": {
+        "ShopName": "",
+        "email": "ramialaidy.ra@gmail.com",
+        "fcm": "e7AyHZgpAUEpu8ELXlJSfP:APA91bHKsG9SxyIVN3B1c_W-vWEebwo4Mp4VeJoGF6FAPXl09uxjuAW3RVt8JpS6uWBJmOR-is_3C9W-ZTszxXnTPymCnZDPUSVf0ueJ2mFO_7NYWogSBkXU_j91BKQ6JuMCdoAPRCMC",
+        "name": "Shanks",
+        "password": "R3151990",
+        "permission": "0",
+        "phone": "0797743390",
+        "status": "1"
+      }
+    }
+  },
+  "Reserved_orders": {
+    "shop_name": {
+      "appointments": {
+        "Phone_customer": "0797743390",
+        "condition_appintements": "Pinding",
+        "name_customer": "Rami Alaidy 1",
+        "reservation_date": {
+          "day_reservation": "10/9/2023",
+          "time_reservation": "6:30 AM"
+        },
+        "type_appintements": "Hair Cut"
+      }
+    }
+  },
+  "Shop_barber": {
+    "Barber": {
+      "2sI1nZ8aQte1hWVtIQstydpbuVh2": {
+        "AutoId": "-Nf9rrbDl3zmSzyhdj48",
+        "IsActive": false,
+        "IsWorking": true,
+        "Location_shop": {
+          "latitude": 32.884688,
+          "longitude": 34.5913
+        },
+        "Parent_Id": "2sI1nZ8aQte1hWVtIQstydpbuVh2",
+        "ShopName": "",
+        "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+        "creationDate": "٢٥ سبتمبر ٢٠٢٣",
+        "email": "murat@yahoo.com",
+        "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+        "isAvailable": true,
+        "isEmailVerified": false,
+        "isOwner": false,
+        "isPersistenceEnabled_Id": false,
+        "lastSignInDate": "٢٥ سبتمبر ٢٠٢٣",
+        "name": "muyyys",
+        "password": "123456",
+        "permission": "0",
+        "providerID": "Firebase",
+        "refreshToken": "AMf-vBws2z7NCyBgP0dRKrBuvQnEIPAor63kWPVk8h_6Kmv0Fv4l1wEGZq5jvdoDyYwwpiENBE7pJvNnBnq9oWPmfYQuTJMR6EztNbFilzU-NNbFQGoquSW6mLy3PxFgDKbbqaf7rBx8ZyThWSpqXlbZyK0wbMrG-qReFMZTgYMA6du_724QYFlgBbBP2gXsaPhcC9Cms6LT3QeduGIQf0wlTaz4yeFmdg",
+        "tenantID": 0,
+        "url_AutoId": "https://saloonapp-62ddc-default-rtdb.firebaseio.com/Shop_barber/Barber/2sI1nZ8aQte1hWVtIQstydpbuVh2/-Nf9rrbDl3zmSzyhdj4C",
+        "userID_barber": "2sI1nZ8aQte1hWVtIQstydpbuVh2",
+        "userID_owner": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+        "user_name": "",
+        "uuid": "3D54EB1F-8B5E-41EB-953E-3603EFCBF1BD"
+      },
+      "7vQWhVmz6QUYNAoWLYJSbH2tQVs2": {
+        "AutoId": "-NfAB-V8YDcBwfRTcXon",
+        "IsActive": false,
+        "IsWorking": true,
+        "Location_shop": {
+          "latitude": 34.011286,
+          "longitude": -116.166868
+        },
+        "Parent_Id": "7vQWhVmz6QUYNAoWLYJSbH2tQVs2",
+        "ShopName": "Sss",
+        "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+        "creationDate": "٢٥ سبتمبر ٢٠٢٣",
+        "email": "slaps@gmail.com",
+        "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+        "isAvailable": true,
+        "isEmailVerified": false,
+        "isOwner": false,
+        "isPersistenceEnabled_Id": false,
+        "lastSignInDate": "٢٥ سبتمبر ٢٠٢٣",
+        "name": "soaks",
+        "password": "123456",
+        "permission": "0",
+        "providerID": "Firebase",
+        "refreshToken": "AMf-vBwOj9z06ycXQiWlES1wFA9-Iai4VONE-GxST5BCC-SQcXCLTCttnZRoVLXofzZDt4tUU-kthA6trMqlXP4vFHIoUtA5Cvf9wH95SG8X-mJMp6749o1ilA4Ikp4lcmIFOlw6lSMJ-zTgwwA0bDa5L5ECf4JFqoi6xeDf4or3T2714VTT43ZCRWxVin-kJjQ8ltdIVX_1H-B7LRx5-GRtTK9MaGFsJA",
+        "tenantID": 0,
+        "url_AutoId": "https://saloonapp-62ddc-default-rtdb.firebaseio.com/Shop_barber/Barber/7vQWhVmz6QUYNAoWLYJSbH2tQVs2/-NfAB-V8YDcBwfRTcXor",
+        "userID_barber": "7vQWhVmz6QUYNAoWLYJSbH2tQVs2",
+        "userID_owner": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+        "user_name": "sss",
+        "uuid": "3A2DF2AD-E7FE-4AF1-A0F9-47238B4CA497"
+      },
+      "zZ6xZW4dmIgOWFhekIsQIP6FrsH2": {
+        "AutoId": "-Nf9rcScGrxBOO6MXdgj",
+        "IsActive": false,
+        "IsWorking": true,
+        "Location_shop": {
+          "latitude": 34.011286,
+          "longitude": -116.166868
+        },
+        "Parent_Id": "zZ6xZW4dmIgOWFhekIsQIP6FrsH2",
+        "ShopName": "",
+        "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+        "creationDate": "٢٥ سبتمبر ٢٠٢٣",
+        "email": "rami@deeloper.com",
+        "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+        "isAvailable": true,
+        "isEmailVerified": false,
+        "isOwner": false,
+        "isPersistenceEnabled_Id": false,
+        "lastSignInDate": "٢٥ سبتمبر ٢٠٢٣",
+        "name": "Rami Alaidy",
+        "password": "123456",
+        "permission": "0",
+        "providerID": "Firebase",
+        "refreshToken": "AMf-vByMj2KPRULFZ7T8AdJKkYYSXxJX1EmqjWaFEf1Yn-T-cq-QFteaKHcvFuPLPN9f528LA3LM_ZqrbTakvWEEtlk5AnXoWc1FAXwY_n0viP1t6hf_X7UJLx4fjE0JyIKueBU42Xjf3mOiIgRLxok9_yi-ieMGCbw5mhWv87WGM1y4C1mQ_NBEjB3OhRHFByDyqvKFT-TtuxRHNpFHM8DLVP9Wi-Ns8Q",
+        "tenantID": 0,
+        "url_AutoId": "https://saloonapp-62ddc-default-rtdb.firebaseio.com/Shop_barber/Barber/zZ6xZW4dmIgOWFhekIsQIP6FrsH2/-Nf9rcScGrxBOO6MXdgn",
+        "userID_barber": "zZ6xZW4dmIgOWFhekIsQIP6FrsH2",
+        "userID_owner": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+        "user_name": "",
+        "uuid": "5676A82F-505F-4C76-B20E-90D1B6600C11"
+      }
+    },
+    "GoD38nWf8VScmO1UnUmSSLZfXEv1": {
+      "Barber": {
+        "-NfiS5MnnZ9PQM_9WHfg": {
+          "AutoId": "-NfiS5MnnZ9PQM_9WHfh",
+          "IsActive": false,
+          "IsWorking": true,
+          "Location_shop": {
+            "latitude": 34.011286,
+            "longitude": -116.166868
+          },
+          "Parent_Id": "-NfiS5MnnZ9PQM_9WHfg",
+          "ShopName": "Rami Saloon",
+          "Shop_id": "GoD38nWf8VScmO1UnUmSSLZfXEv1",
+          "creationDate": "02 Oct 2023",
+          "isAvailable": true,
+          "isEmailVerified": false,
+          "isOwner": false,
+          "isPersistenceEnabled_Id": false,
+          "lastSignInDate": "02 Oct 2023",
+          "name": "Rami Alaidy",
+          "password": "123456",
+          "permission": "0",
+          "phone": "+962795558888",
+          "providerID": "Firebase",
+          "refreshToken": "AMf-vBwv9LbxBiTbEyjU-MauaLDJI6LkqSkaACGX1LFZ2oLS6XJGzrM09luJ0hBK0v40Zc4MRtvWqsXxJjtVL7Epz_N9AvY3EsuSVmGZDWFQuanJgCbZa1rjQIZotL0G2KdiYR8yIGsPBOhtyOJBPB5XwOfWmEJpe5muHcRFVHGsGpuKSRTq-glGl8zqJU5xe9yHXr4I1U-98XCNcBDSYoGB-VbqGa5h1Q",
+          "tenantID": 0,
+          "url_AutoId": "https://saloonapp-62ddc-default-rtdb.firebaseio.com/Shop_barber/GoD38nWf8VScmO1UnUmSSLZfXEv1/Barber/-NfiS5MnnZ9PQM_9WHfg/-NfiS5MnnZ9PQM_9WHfl",
+          "userID_barber": "GoD38nWf8VScmO1UnUmSSLZfXEv1",
+          "userID_owner": "GoD38nWf8VScmO1UnUmSSLZfXEv1",
+          "user_name": "Rami_alaidyIOS",
+          "uuid": "A5722216-BC8D-48E1-9464-6C8CAFD38A8E"
+        }
+      },
+      "Shop_info": {
+        "Location_shop": {
+          "latitude": 34.011286,
+          "longitude": -116.166868
+        },
+        "ShopName": "Rami Saloon",
+        "childByAutoId": "-NfiS5MeKeKcZKTNrkdy",
+        "creationDate": "02 Oct 2023",
+        "email": "rami.alaidy@alaidy.com",
+        "lastSignInDate": "02 Oct 2023",
+        "name": "Rami Alaidy",
+        "password": "123456",
+        "permission": "0",
+        "phone": "",
+        "providerID": "Firebase",
+        "refreshToken": "AMf-vBwv9LbxBiTbEyjU-MauaLDJI6LkqSkaACGX1LFZ2oLS6XJGzrM09luJ0hBK0v40Zc4MRtvWqsXxJjtVL7Epz_N9AvY3EsuSVmGZDWFQuanJgCbZa1rjQIZotL0G2KdiYR8yIGsPBOhtyOJBPB5XwOfWmEJpe5muHcRFVHGsGpuKSRTq-glGl8zqJU5xe9yHXr4I1U-98XCNcBDSYoGB-VbqGa5h1Q",
+        "status": true,
+        "tenantID": 0,
+        "userID": "GoD38nWf8VScmO1UnUmSSLZfXEv1",
+        "user_name": "Rami_alaidyIOS",
+        "uuid": "D298EC7B-FCB7-40E1-A7A9-2F84F2E2FE76"
+      }
+    },
+    "itrb3wLYKVb9jwtvK2re4tyjSrm2": {
+      "Barber": {
+        "82L7nkakidRmH7z6SBK6TmXVTD13": {
+          "AutoId": "-NfB6tih7wcoJXIn2RV-",
+          "IsActive": false,
+          "IsWorking": true,
+          "Location_shop": {
+            "latitude": 37.33458564,
+            "longitude": -122.03529395
+          },
+          "Parent_Id": "82L7nkakidRmH7z6SBK6TmXVTD13",
+          "ShopName": "Rami Saloon App",
+          "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+          "creationDate": "٢٥ سبتمبر ٢٠٢٣",
+          "email": "rmrm@yahoo.com",
+          "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+          "isAvailable": true,
+          "isEmailVerified": false,
+          "isOwner": false,
+          "isPersistenceEnabled_Id": false,
+          "lastSignInDate": "٢٥ سبتمبر ٢٠٢٣",
+          "name": "Rami Alaidy",
+          "password": "123456",
+          "permission": "0",
+          "providerID": "Firebase",
+          "refreshToken": "AMf-vBy8uYn-f-9q013QfIcNbr-shLuPltyLrNF2TwOJ4ZpjfYEevpYPtn5QYJQFgTEMzxTakUbEkAu9hqGZzsXGbQEI3AboG6hYJHhWbV2c2-WuRUbZqaxIFaQ19oZ6-sRzs3sshpPwkBKbXw4ykrREASct10vIz8MQVtoatFlc1CULrqAKkrNS3vrt3x2OLqQzac-aY1kXqSl9S13WmsxktvR6sDYG9w",
+          "tenantID": 0,
+          "url_AutoId": "https://saloonapp-62ddc-default-rtdb.firebaseio.com/Shop_barber/itrb3wLYKVb9jwtvK2re4tyjSrm2/Barber/82L7nkakidRmH7z6SBK6TmXVTD13/-NfB6tih7wcoJXIn2RV3",
+          "userID_barber": "82L7nkakidRmH7z6SBK6TmXVTD13",
+          "userID_owner": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+          "user_name": "Rami.iOS",
+          "uuid": "EF88AA89-01AE-4D18-B33C-CD3779D33250"
+        },
+        "N4sZwjUc4PZfSr3Y1ycyorFK6BD3": {
+          "AutoId": "-NfB9nbvifEvMAJgwnV_",
+          "IsActive": false,
+          "IsWorking": true,
+          "Location_shop": {
+            "latitude": 34.011286,
+            "longitude": -116.166868
+          },
+          "Parent_Id": "N4sZwjUc4PZfSr3Y1ycyorFK6BD3",
+          "ShopName": "Rami Saloon",
+          "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+          "creationDate": "٢٥ سبتمبر ٢٠٢٣",
+          "email": "murad.alaidy.ma@gmail.com",
+          "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+          "isAvailable": true,
+          "isEmailVerified": false,
+          "isOwner": false,
+          "isPersistenceEnabled_Id": false,
+          "lastSignInDate": "٢٥ سبتمبر ٢٠٢٣",
+          "name": "Murad Alaidy King",
+          "password": "123456",
+          "permission": "0",
+          "providerID": "Firebase",
+          "refreshToken": "AMf-vBz3Em6Qx6GnHGof-hjiGLIdbqKzuuxvlRhbUl02rAMHBCakYUkiUOkdX51uiILU83evhKOIYrIHIvXeUP2CDtiY9LAKhbzDc5upYYA0ro2kJFW1HEwaXOp1CkPZF4NzE0acSD3Du6HGSnJPL5OZeZnFECXwj1k6ee2eLBiUEw28GTu0Nt0i0gKcwz8wBdKcPAgwmQ9Fp5w7FBSp4dLtWo6IoCf31g",
+          "tenantID": 0,
+          "url_AutoId": "https://saloonapp-62ddc-default-rtdb.firebaseio.com/Shop_barber/itrb3wLYKVb9jwtvK2re4tyjSrm2/Barber/N4sZwjUc4PZfSr3Y1ycyorFK6BD3/-NfB9nbvifEvMAJgwnVd",
+          "userID_barber": "N4sZwjUc4PZfSr3Y1ycyorFK6BD3",
+          "userID_owner": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+          "user_name": "MuradIOS",
+          "uuid": "56A25FB0-516C-4F7F-8DFC-236C828D60E1"
+        }
+      },
+      "Shop_info": {
+        "Location_shop": {
+          "latitude": 37.33403923,
+          "longitude": -122.07123245
+        }
+      }
+    },
+    "w2JGQHyFjiO9740hGiIhyDm1Lcy1": {
+      "Barber": {
+        "-NfiKHTjQTT_0kYHqEaz": {
+          "AutoId": "-NfiKHTjQTT_0kYHqEb-",
+          "IsActive": false,
+          "IsWorking": true,
+          "Location_shop": {
+            "latitude": 34.011286,
+            "longitude": -116.166868
+          },
+          "Parent_Id": "-NfiKHTjQTT_0kYHqEaz",
+          "ShopName": "Rami Saloon",
+          "Shop_id": "w2JGQHyFjiO9740hGiIhyDm1Lcy1",
+          "creationDate": "02 Oct 2023",
+          "email": "rami.alaidy@alaidy.com",
+          "isAvailable": true,
+          "isEmailVerified": false,
+          "isOwner": false,
+          "isPersistenceEnabled_Id": false,
+          "lastSignInDate": "02 Oct 2023",
+          "name": "Rami Alaidy IOS",
+          "password": "123456",
+          "permission": "0",
+          "providerID": "Firebase",
+          "refreshToken": "AMf-vBwx_ldJF4xt5i8aw4L4YAtxYQ85qQdCVWIAV3uzLdjuW_nlfepvbWjJcV_pYmIf0h5ohKbou0ttfmpYo1cJhVDEt0px3RT9wuvoO19k8GAUJfkcfiAU3G43gt7GYm8xs1EHrh8sEATzJAIPZcP6gsJNOcvF3QXLG1oZAw93jYATwINpzX-yaTNDHAeiVOGwLulN-ONqu5ao8Xxxf2ErgfwhDxKOvg",
+          "tenantID": 0,
+          "url_AutoId": "https://saloonapp-62ddc-default-rtdb.firebaseio.com/Shop_barber/w2JGQHyFjiO9740hGiIhyDm1Lcy1/Barber/-NfiKHTjQTT_0kYHqEaz/-NfiKHTjQTT_0kYHqEb3",
+          "userID_barber": "w2JGQHyFjiO9740hGiIhyDm1Lcy1",
+          "userID_owner": "w2JGQHyFjiO9740hGiIhyDm1Lcy1",
+          "user_name": "Rami_IOS",
+          "uuid": "B4AD8AA8-CC0F-4B2E-A659-57C15827740C"
+        }
+      },
+      "Shop_info": {
+        "Location_shop": {
+          "latitude": 34.011286,
+          "longitude": -116.166868
+        },
+        "ShopName": "Rami Saloon",
+        "childByAutoId": "-NfiKHTg4sSuMJTFCHSK",
+        "creationDate": "02 Oct 2023",
+        "email": "rami.alaidy@alaidy.com",
+        "lastSignInDate": "02 Oct 2023",
+        "name": "Rami Alaidy IOS",
+        "password": "123456",
+        "permission": "0",
+        "phone": "",
+        "providerID": "Firebase",
+        "refreshToken": "AMf-vBwx_ldJF4xt5i8aw4L4YAtxYQ85qQdCVWIAV3uzLdjuW_nlfepvbWjJcV_pYmIf0h5ohKbou0ttfmpYo1cJhVDEt0px3RT9wuvoO19k8GAUJfkcfiAU3G43gt7GYm8xs1EHrh8sEATzJAIPZcP6gsJNOcvF3QXLG1oZAw93jYATwINpzX-yaTNDHAeiVOGwLulN-ONqu5ao8Xxxf2ErgfwhDxKOvg",
+        "status": true,
+        "tenantID": 0,
+        "userID": "w2JGQHyFjiO9740hGiIhyDm1Lcy1",
+        "user_name": "Rami_IOS",
+        "uuid": "9186C103-0A61-449C-8C05-99DB5F551B98"
+      }
+    }
+  },
+  "User_Barber": {
+    "1XF5WYOrX4VCXQIGfsBdcKqHdut1": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "1XF5WYOrX4VCXQIGfsBdcKqHdut1",
+      "childByAutoId": "-Nf88mP-oQoTgudgRkd3",
+      "email": "",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "",
+      "password": "",
+      "permission": "0",
+      "phone": "",
+      "userID": "OVZVlfH9OOhFy610V4MilLQRUKA3"
+    },
+    "2sI1nZ8aQte1hWVtIQstydpbuVh2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9rrbDl3zmSzyhdj47",
+      "email": "murat@yahoo.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "muyyys",
+      "password": "123456",
+      "permission": "0",
+      "userID": "2sI1nZ8aQte1hWVtIQstydpbuVh2"
+    },
+    "4494ULaAiieCcUOGk9eAssW7gYg1": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9hF3yH5Bmyl8nAi4b",
+      "email": "rkkdd@gmail.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "dddde",
+      "password": "123456",
+      "permission": "0",
+      "userID": "4494ULaAiieCcUOGk9eAssW7gYg1"
+    },
+    "6iYKrTQldCSP7DrmHzmHSHeue002": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9diD4gi6LTLt2sdxB",
+      "email": "w@yahoo.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "lwlwlwl",
+      "password": "123456",
+      "permission": "0",
+      "userID": "6iYKrTQldCSP7DrmHzmHSHeue002"
+    },
+    "7vQWhVmz6QUYNAoWLYJSbH2tQVs2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "Sss",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-NfAB-V8YDcBwfRTcXom",
+      "email": "slaps@gmail.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "soaks",
+      "password": "123456",
+      "permission": "0",
+      "userID": "7vQWhVmz6QUYNAoWLYJSbH2tQVs2"
+    },
+    "82L7nkakidRmH7z6SBK6TmXVTD13": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "Rami Saloon App",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-NfB6tifpgT6iY7ZFqHt",
+      "email": "rmrm@yahoo.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "rami",
+      "password": "123456",
+      "permission": "0",
+      "userID": "82L7nkakidRmH7z6SBK6TmXVTD13"
+    },
+    "9WSiCX5liUbemQGufSpWCyOTvPr2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "KUDta6zzWcgQ7eZu7z4Uok9afEr1",
+      "childByAutoId": "-Nf9cTaGwro1rmhbg5Gz",
+      "email": "dd@yahoo.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "daddy’s",
+      "password": "123456",
+      "permission": "0",
+      "userID": "9WSiCX5liUbemQGufSpWCyOTvPr2"
+    },
+    "AKexJkRLUwQbA648nGQ50nqKmSE3": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "KUDta6zzWcgQ7eZu7z4Uok9afEr1",
+      "childByAutoId": "-Nf9b19c4Uy54xCUarZu",
+      "email": "r.a@gmail.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "rami Alaidy",
+      "password": "123456",
+      "permission": "0",
+      "userID": "AKexJkRLUwQbA648nGQ50nqKmSE3"
+    },
+    "BXZeUWxL30bvdvcjzenYIi9aDTX2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9g4Qg0ysT97oxsUc4",
+      "email": "dd@mm.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "high-frequency",
+      "password": "123456",
+      "permission": "0",
+      "userID": "BXZeUWxL30bvdvcjzenYIi9aDTX2"
+    },
+    "CL9yJjWvLIOSioBcXMgpuGcmycn2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9qTZ9elkV3-qVxlsz",
+      "email": "ee@h.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "kkk",
+      "password": "123456",
+      "permission": "0",
+      "userID": "CL9yJjWvLIOSioBcXMgpuGcmycn2"
+    },
+    "FpI4dojEICacwZ62VgFY4xAiNB93": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9f0jf4x3nuWvhjHUQ",
+      "email": "mr@gmail.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "madmen",
+      "password": "123456",
+      "permission": "0",
+      "userID": "FpI4dojEICacwZ62VgFY4xAiNB93"
+    },
+    "GoD38nWf8VScmO1UnUmSSLZfXEv1": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "Rami Saloon",
+      "Shop_id": "GoD38nWf8VScmO1UnUmSSLZfXEv1",
+      "childByAutoId": "-NfiS5Mo-SQhSdKu4f36",
+      "isAvailable": true,
+      "isOwner": true,
+      "name": "Rami Alaidy",
+      "password": "123456",
+      "permission": "0",
+      "phone": "+962795558888",
+      "userID": "GoD38nWf8VScmO1UnUmSSLZfXEv1"
+    },
+    "J29TMoH3e2TZjXPrWtG2Fd3VwgX2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "Rami Saloon",
+      "Shop_id": "KUDta6zzWcgQ7eZu7z4Uok9afEr1",
+      "childByAutoId": "-Nf9UQnB-Gipb2nCeMF0",
+      "email": "murad.alaidy.rami@yahoo.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "Murad Alaidy",
+      "password": "123456",
+      "permission": "0",
+      "userID": "J29TMoH3e2TZjXPrWtG2Fd3VwgX2"
+    },
+    "KUDta6zzWcgQ7eZu7z4Uok9afEr1": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "KUDta6zzWcgQ7eZu7z4Uok9afEr1",
+      "childByAutoId": "-Nf8AoPnNNfZQbby-t8L",
+      "email": "",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "",
+      "password": "",
+      "permission": "0",
+      "phone": "",
+      "userID": "W7jDfD4AhdWVErUelQohtedgQ1M2"
+    },
+    "N4sZwjUc4PZfSr3Y1ycyorFK6BD3": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "Rami Saloon",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-NfB9nbu_6KPT0MDfSZB",
+      "email": "murad.alaidy.ma@gmail.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "Murad Alaidy King",
+      "password": "123456",
+      "permission": "0",
+      "userID": "N4sZwjUc4PZfSr3Y1ycyorFK6BD3"
+    },
+    "QXpciLXn5NSsg0ZUniaMSTaEpff1": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9dEDttA4JWEvz5gHZ",
+      "email": "slslslsl@yahoo.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "rami",
+      "password": "1234455",
+      "permission": "0",
+      "userID": "QXpciLXn5NSsg0ZUniaMSTaEpff1"
+    },
+    "R0YivNBQKcbnuNc6ZaitCBiU0h62": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "Rami Alaidy Saloon App",
+      "Shop_id": "KUDta6zzWcgQ7eZu7z4Uok9afEr1",
+      "childByAutoId": "-Nf8G2U2g87diEZ4zmwL",
+      "email": "murad@barber.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "Murad Alaidy",
+      "password": "123456",
+      "permission": "0",
+      "userID": "R0YivNBQKcbnuNc6ZaitCBiU0h62"
+    },
+    "aXN1FKRlbneQYXAFGBcNu9Asbm72": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9eYuAHkWNEtzwVaej",
+      "email": "dd@g.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "dddd",
+      "password": "123456",
+      "permission": "0",
+      "userID": "aXN1FKRlbneQYXAFGBcNu9Asbm72"
+    },
+    "itrb3wLYKVb9jwtvK2re4tyjSrm2": {
+      "Appointment": {
+        "End_work": "8:30 AM",
+        "break_end": "4:00 PM",
+        "break_start": "3:00 PM",
+        "start_work": "11:00 AM",
+        "weekend_work": "Saturday"
+      },
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "Rami Saloon ",
+      "Shop_id": "KUDta6zzWcgQ7eZu7z4Uok9afEr1",
+      "childByAutoId": "-Nf9cun_2xcA3Wjk6vho",
+      "email": "bayn@gmail.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "bayan",
+      "password": "123456",
+      "permission": "0",
+      "userID": "itrb3wLYKVb9jwtvK2re4tyjSrm2"
+    },
+    "lvgS6PS4q9bCsFjbhueCRDyKlUQ2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9fWMASDNHS8kbWjby",
+      "email": "eee@yahho.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "rami",
+      "password": "123456",
+      "permission": "0",
+      "userID": "lvgS6PS4q9bCsFjbhueCRDyKlUQ2"
+    },
+    "pjTYVU2plaPearKkMs0M1Wq1Wkc2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9qFYNdXrMnCvEUSmq",
+      "email": "kdkd@dd.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "endemic",
+      "password": "123456",
+      "permission": "0",
+      "userID": "pjTYVU2plaPearKkMs0M1Wq1Wkc2"
+    },
+    "vE1vzuxqsgWGFju6HrJzX1xcTGj2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9i8x7BFlWbENqI-ll",
+      "email": "fff@c.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "bbbbbpp",
+      "password": "123456",
+      "permission": "0",
+      "userID": "vE1vzuxqsgWGFju6HrJzX1xcTGj2"
+    },
+    "vx6fiUoIFAd4sKd4seeBQozARAD3": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9gcXD9cyD9CLVwCNq",
+      "email": "dddd@yhoo.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "nndndn",
+      "password": "123456",
+      "permission": "0",
+      "userID": "vx6fiUoIFAd4sKd4seeBQozARAD3"
+    },
+    "w2JGQHyFjiO9740hGiIhyDm1Lcy1": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "Rami Saloon",
+      "Shop_id": "w2JGQHyFjiO9740hGiIhyDm1Lcy1",
+      "childByAutoId": "-NfiKHTk-UdTCnTfmboR",
+      "email": "rami.alaidy@alaidy.com",
+      "isAvailable": true,
+      "isOwner": true,
+      "name": "Rami Alaidy IOS",
+      "password": "123456",
+      "permission": "0",
+      "userID": "w2JGQHyFjiO9740hGiIhyDm1Lcy1"
+    },
+    "wi0lfnb5EWXpp5gFfNBxZp6x4KW2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9i-bUcWOGqd8AB0Fd",
+      "email": "ee@yahoo.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "wwww",
+      "password": "123456",
+      "permission": "0",
+      "userID": "wi0lfnb5EWXpp5gFfNBxZp6x4KW2"
+    },
+    "ywTZLQ6nBHWTPqIsTSPFvZzPzJt2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9gtE_BlvPINIBF0gL",
+      "email": "dddggg@m.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "ffff@gmail.com",
+      "password": "123456",
+      "permission": "0",
+      "userID": "ywTZLQ6nBHWTPqIsTSPFvZzPzJt2"
+    },
+    "zZ6xZW4dmIgOWFhekIsQIP6FrsH2": {
+      "IsActive": true,
+      "IsWorking": true,
+      "ShopName": "",
+      "Shop_id": "itrb3wLYKVb9jwtvK2re4tyjSrm2",
+      "childByAutoId": "-Nf9rcSa8ljZEyGl7oTt",
+      "email": "rami@deeloper.com",
+      "fcm": "c6OX2d9J3EJJmRtomrH6_z:APA91bEfcK8DMrtpjqk8dJEmKzG1T1XVabc0tntXAarm4ovA6w7Sh9ILRxuYtsR_wyRyl5AXlJx4Y6gsi8hbl9RFHrXAv5Lso36m8XmeN2ju33uenAWAKqq545R43H8gYlTwXK8F22Q1",
+      "isAvailable": false,
+      "isOwner": false,
+      "name": "Rami Alaidy",
+      "password": "123456",
+      "permission": "0",
+      "userID": "zZ6xZW4dmIgOWFhekIsQIP6FrsH2"
+    }
+  },
+  "users": {
+    "TiQiqmm61iWzAVtgimzfXp1cXG33": {
+      "fcm": ""
+    },
+    "WtmUaGzrdVQbUpoggLihYwEbYmr2": {
+      "fcm": "eQgxi4UvmUS8nYw-_lBru-:APA91bHnBC5JOSerfT8ybaFDh_bjgSI3_vKcDBp6lnbzLYpAXrG0HWHFdihWB1sacFWtmfwQYbYDr54Rz4KG9BEIAoa8uK-r3znkBJeGTfc7y0t5mC41nKRN8DQ_QWOH0o8rkltILm8i"
+    },
+    "ramialaidy,rr@gmail,com": {
+      "fcm": "e7AyHZgpAUEpu8ELXlJSfP:APA91bHKsG9SxyIVN3B1c_W-vWEebwo4Mp4VeJoGF6FAPXl09uxjuAW3RVt8JpS6uWBJmOR-is_3C9W-ZTszxXnTPymCnZDPUSVf0ueJ2mFO_7NYWogSBkXU_j91BKQ6JuMCdoAPRCMC"
+    },
+    "w9EgvG53CrYFfyCiAMjy46Olwc33": {
+      "fcm": "eQgxi4UvmUS8nYw-_lBru-:APA91bHnBC5JOSerfT8ybaFDh_bjgSI3_vKcDBp6lnbzLYpAXrG0HWHFdihWB1sacFWtmfwQYbYDr54Rz4KG9BEIAoa8uK-r3znkBJeGTfc7y0t5mC41nKRN8DQ_QWOH0o8rkltILm8i",
+      "rami_alaidy@yahoo,com": {
+        "ShopName": "",
+        "email": "rami_alaidy@yahoo.com",
+        "fcm": "cEmjBzNWq0ECo0smtmbhNb:APA91bGGmjskT-ikWZYcMs51hqPSROUv112W5ebbkyEcnOhI9B1dR9H7qmKZNwjGrgJ6EZ-jVhgerVPhqlOq0f0D2q-2uwaUt7IfKnbTibjDtVS-WsGX4UfEsAGm8Pu079TgXVNzlog0",
+        "name": "Rami M Alaidy",
+        "password": "R315r199r",
+        "permission": "0",
+        "phone": "00962795838893",
+        "status": "1"
+      }
+    },
+    "yGCGIbMZFkeJoI58eNiry20frJa2": {
+      "fcm": "ceOrdY49OkRBqzm6FytB93:APA91bFIb0K6nCwY9fB0PaRWMNsn_4w-JIdE3wIu45jy9pIHw3xBixNc7PFPkcvGxyKRxK4zS8yqTZw4ZEGFyqD2oKc0IuzjDqA-fip-NRwgrYaic-jlkUJT2EFO9Cj6jRMMLBFfZYbF",
+      "rami_alaidy@yahoo,com": {
+        "ShopName": "",
+        "email": "rami_alaidy@yahoo.com",
+        "fcm": "ceOrdY49OkRBqzm6FytB93:APA91bFIb0K6nCwY9fB0PaRWMNsn_4w-JIdE3wIu45jy9pIHw3xBixNc7PFPkcvGxyKRxK4zS8yqTZw4ZEGFyqD2oKc0IuzjDqA-fip-NRwgrYaic-jlkUJT2EFO9Cj6jRMMLBFfZYbF",
+        "name": "Rami Alaidy",
+        "password": "R315r199r",
+        "permission": "0",
+        "phone": "0795838893",
+        "status": "1"
+      }
+    }
+  }
+}

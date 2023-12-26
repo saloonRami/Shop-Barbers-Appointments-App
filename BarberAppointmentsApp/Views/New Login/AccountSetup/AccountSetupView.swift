@@ -85,8 +85,8 @@ struct AccountSetupView: View {
                     .padding(.top)
                 }
                 .fullScreenCover(isPresented: self.$isLoading){
-                    TabHomeView()
-                    .environmentObject(UserBareberViewModel())
+//                    TabHomeView()
+//                    .environmentObject(UserBareberViewModel())
                 }
             }
     

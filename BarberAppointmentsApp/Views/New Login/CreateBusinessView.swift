@@ -136,7 +136,7 @@ struct CreateBusinessView: View {
 #Preview {
     CreateBusinessView(email: "rami.alaidy@alaidy.com", VM: LoginEmailViewModel())
         .environmentObject(LoginEmailViewModel())
-
+        .environmentObject(VerifyPhoneViewModel())
 }
 
 struct CreateTextFeildCell: View {
